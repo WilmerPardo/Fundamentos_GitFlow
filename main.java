@@ -6,8 +6,9 @@
         calculadora.saludar(); 
         calculadora.calcular();  
         calculadora.repetir(); 
+        calculadora.despedir();
     }
 
 }
     
-    
+

@@ -49,7 +49,9 @@ public class app {
     }
 
     public void saludar(){
-        System.out.println("Hola mundoooo :D");
+        System.out.println("Hola mundo, esta es una demostracion de como funciona git");
+        System.out.println("Esta es una calculadora que hace operaciones basicas \n Wilmer Pardo");
+        
     }
     public void repetir(){
         System.out.println("Desea volver a hacer una operacion? \n Presione S para si y cualquier letra para salir");
@@ -60,4 +62,8 @@ public class app {
             repetir();
         }
     }
-}
+        public void despedir(){
+            System.out.println("Gracias por usar la calculadora");
+        }
+    }
+
