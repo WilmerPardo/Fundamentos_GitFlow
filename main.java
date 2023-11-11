@@ -4,7 +4,8 @@
     public static void main(String[] args) {
         app calculadora = new app();
         calculadora.saludar(); 
-        calculadora.calcular();   
+        calculadora.calcular();  
+        calculadora.repetir(); 
     }
 
 }

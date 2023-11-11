@@ -51,5 +51,13 @@ public class app {
     public void saludar(){
         System.out.println("Hola mundoooo :D");
     }
-
+    public void repetir(){
+        System.out.println("Desea volver a hacer una operacion? \n Presione S para si y cualquier letra para salir");
+        Scanner input = new Scanner(System.in);
+        char respuesta = input.next().charAt(0);
+        if(respuesta == 'S' || respuesta == 's'){
+            calcular();
+            repetir();
+        }
+    }
 }
