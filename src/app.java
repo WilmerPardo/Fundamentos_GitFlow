@@ -59,5 +59,9 @@ public class app {
             calcular();
             repetir();
         }
+
+    public void despedidad(){
+        System.out.println("Gracias por usar el programa");
+    }
     }
 }
