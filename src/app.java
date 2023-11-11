@@ -48,5 +48,8 @@ public class app {
         return result;
     }
 
+    public void saludar(){
+        System.out.println("Hola mundoooo :D");
+    }
 
 }
